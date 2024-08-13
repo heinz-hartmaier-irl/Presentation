@@ -1,0 +1,50 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+
+
+background-image: radial-gradient(
+  circle at bottom,
+  #ffffff 0%,
+  #d2ebf2 20%,
+  #82c7db 25%,
+  #5c85da 30%,
+  #3668d1 40%,
+  #2474bb 40%,
+  #6871b9 60%,
+  #6871b9 65%,
+  #464e95 70%,
+  #303769 80%,
+  #1c1c62 80%,
+  #131342 85%,
+  #010031 100%
+);
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+
+
+article{
+  background-color: whitesmoke;
+  padding-bottom: 2vh;
+  border-radius: 15px;
+  flex-direction: column;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+}
+
+article img{
+  max-width: 90%;
+  min-height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+} 
+
+article h2{
+  font-size: 80%;
+}
+
+article p{
+  margin: 1em;
+}

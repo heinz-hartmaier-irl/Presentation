@@ -1,0 +1,30 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+
+
+background-image: linear-gradient(
+
+   #81d7d9 0%,
+   #81C2DE 20%,
+   #55c5f1 20%,
+   #4d8adb 40%,
+   #3e82da 40%,
+   #6476d3 60%,
+   #4660e2 60%,
+   #8277e4 80%,
+   #9B91FA 80%,
+   #645da2 100%
+);
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+
+div img{
+  width:80%;
+  margin-top: 5vh;
+}
+
+

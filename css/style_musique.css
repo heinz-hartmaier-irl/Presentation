@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: linear-gradient(45deg,
+    #264580 0%,
+    #435a97 20%,
+    #3e5286 20%,
+    #596aa0 40%,
+    #4e5c8a 40%,
+    #3a5258 60%,
+    #446169 60%,
+    #82ddd5 80%,
+    #8ddbe6 80%,
+    #d3d3d3 100%
+  );
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+section{
+  margin-top: 20vh;
+}
+
+div a {
+  text-decoration: none;
+  color: inherit;
+}
+
+article {
+  margin: 15px;
+  text-align: center;
+  border: solid;
+  border-radius: 20px;
+  color: aliceblue;
+}
+
+.link {
+  text-align: center;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: antiquewhite;
+  transition: margin 0.5s; 
+}
+
+.link:hover {
+  margin: 1vw;
+}
